@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Challenge</name>
+    </assembly>
+    <members>
+        <member name="M:Challenge.Controllers.v1.InmueblesController.Create(Application.Features.InmuebleFeatures.Commands.CreateInmuebleCommand)">
+            <summary>
+            Creates a New Inmueble.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge.Controllers.v1.InmueblesController.GetAll">
+            <summary>
+            Gets all Inmuebles.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge.Controllers.v1.InmueblesController.GetById(System.Int32)">
+            <summary>
+            Gets Inmueble by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge.Controllers.v1.InmueblesController.Delete(System.Int32)">
+            <summary>
+            Deletes Inmueble based on Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge.Controllers.v1.InmueblesController.Update(Application.Features.InmuebleFeatures.Commands.UpdateInmuebleCommand)">
+            <summary>
+            Updates the Inmueble based on Id.   
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
