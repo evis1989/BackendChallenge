@@ -7,13 +7,16 @@ namespace Domain.Entities
 {
     public class Inmueble : BaseEntity
     {
-        public string agencyId { get; set; }
-        public decimal price { get; set; }
-        public Location location { get; set; }
-        public string operationType { get; set; }
-        public string type { get; set; }
-        public int rooms { get; set; }
-        public int baths { get; set; }
+        public string AgencyId { get; set; }
+        public decimal Price { get; set; }
+        public Location Location { get; set; }
+        public string OperationType { get; set; }
+        public string Type { get; set; }
+        public int Rooms { get; set; }
+        public int Baths { get; set; }
 
+        public Inmueble(){
+            
+        }
     }
 }

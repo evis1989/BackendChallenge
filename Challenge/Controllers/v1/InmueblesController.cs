@@ -42,7 +42,7 @@ namespace Challenge.Controllers.v1
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var result = await Mediator.Send(new GetInmuebleByIdQuery { id = id });
+            var result = await Mediator.Send(new GetInmuebleByIdQuery { Id = id });
             return result != null ? Ok(result) : NotFound();
         }
         /// <summary>
@@ -53,7 +53,7 @@ namespace Challenge.Controllers.v1
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await Mediator.Send(new DeleteInmuebleCommand { id = id });
+            var result = await Mediator.Send(new DeleteInmuebleCommand { Id = id });
             return result != null ? Ok(result) : NotFound();
         }
         /// <summary>
