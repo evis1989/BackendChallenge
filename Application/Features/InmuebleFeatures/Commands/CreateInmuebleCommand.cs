@@ -11,13 +11,8 @@ namespace Application.Features.InmuebleFeatures.Commands
 {
     public class CreateInmuebleCommand : IRequest<Inmueble>
     {
-        public string agencyId { get; set; }
-        public decimal price { get; set; }
-        public Location location { get; set; }
-        public string operationType { get; set; }
-        public string type { get; set; }
-        public int rooms { get; set; }
-        public int baths { get; set; }
+        public virtual CreateInmuebleDto create{get;set;}
+        
         public class CreateInmuebleCommandHandler : IRequestHandler<CreateInmuebleCommand, Inmueble>
         {
             private readonly IApplicationDbContext _context;
