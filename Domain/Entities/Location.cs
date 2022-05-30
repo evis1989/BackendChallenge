@@ -11,6 +11,7 @@ namespace Domain.Entities
         public string ZipCode { get; set; }
         public string Address { get; set; }
 
+        public Location() { }
         public Location(string city,string zipcode,string address){
             City=city;
             ZipCode=zipcode;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bx8NZEUhJ0m6b9O1IuwOAoaE3CWRrQHuoJLQd8Y8oa5vn/GqbI6KFShV3lbb6wRtfDFKHUBRsmp6upwhsSx6RQ==",
+  "dgSpecHash": "m9myPMeOPbvdOv11n5xUMUB3l6/xu2VDeVDgQBk58C08AVoDVuTsGLL8io6p6eWT6K0izLxE09Qp+szYS2+57Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Persistence\\Persistence.csproj",
+  "projectFilePath": "F:\\WORK\\Repositorio\\BackendChallenge\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vy\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Vy\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

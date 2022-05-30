@@ -10,3 +10,15 @@ C:\Users\Vy\Downloads\Compressed\BackendChallenge\Application\obj\Debug\netcorea
 C:\Users\Vy\Downloads\Compressed\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
 C:\Users\Vy\Downloads\Compressed\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\Vy\Downloads\Compressed\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.pdb
+F:\WORK\Repositorio\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
+F:\WORK\Repositorio\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\WORK\Repositorio\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+F:\WORK\Repositorio\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+F:\WORK\Repositorio\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+F:\WORK\Repositorio\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.dll
+F:\WORK\Repositorio\BackendChallenge\Application\obj\Debug\netcoreapp3.1\Application.pdb
+F:\WORK\Repositorio\BackendChallenge\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+F:\WORK\Repositorio\BackendChallenge\Application\bin\Debug\netcoreapp3.1\Application.dll
+F:\WORK\Repositorio\BackendChallenge\Application\bin\Debug\netcoreapp3.1\Application.pdb
+F:\WORK\Repositorio\BackendChallenge\Application\bin\Debug\netcoreapp3.1\Domain.dll
+F:\WORK\Repositorio\BackendChallenge\Application\bin\Debug\netcoreapp3.1\Domain.pdb

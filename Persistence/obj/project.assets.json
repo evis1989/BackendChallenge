@@ -682,11 +682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "F:\\WORK\\Repositorio\\BackendChallenge\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Persistence\\Persistence.csproj",
+      "projectPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\Vy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Persistence\\obj\\",
+      "outputPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -706,8 +706,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Application\\Application.csproj"
+            "F:\\WORK\\Repositorio\\BackendChallenge\\Application\\Application.csproj": {
+              "projectPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Application\\Application.csproj"
             }
           }
         }

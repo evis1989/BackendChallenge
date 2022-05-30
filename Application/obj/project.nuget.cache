@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBTpNmXdWfZwx/cpE1oqPcKUBWM1WHVocHPkhtwdijZ9dYUU7NHW/w0jm2+aEgDyNMYaKmlmup/cp+vDBcQPfQ==",
+  "dgSpecHash": "EUNFaH03GE0XKcA3OQZurrRNQ0z6FtQgyeUAfsLmcuiS8/asUfLx0wVmlOh5GW/kWrD6Mj4/U0Ui5tyFBARgsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Application\\Application.csproj",
+  "projectFilePath": "F:\\WORK\\Repositorio\\BackendChallenge\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vy\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Vy\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

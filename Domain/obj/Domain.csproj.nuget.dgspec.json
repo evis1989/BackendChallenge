@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Domain\\Domain.csproj": {}
+    "F:\\WORK\\Repositorio\\BackendChallenge\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Domain\\Domain.csproj": {
+    "F:\\WORK\\Repositorio\\BackendChallenge\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\WORK\\Repositorio\\BackendChallenge\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Domain\\Domain.csproj",
+        "projectPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Vy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Domain\\obj\\",
+        "outputPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -11,7 +11,11 @@ namespace Persistence.Context
             : base(options)
         {
         }
-        public DbSet<Inmueble> Inmuebles { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Property>().OwnsOne(i => i.Location);
+        }
+        public DbSet<Property> Properties { get; set; }
 
         public async Task<int> SaveChangesAsync()
         {

@@ -4,36 +4,36 @@
         <name>Challenge</name>
     </assembly>
     <members>
-        <member name="M:Challenge.Controllers.v1.InmueblesController.Create(Application.Features.InmuebleFeatures.Commands.CreateInmuebleCommand)">
+        <member name="M:Challenge.Controllers.v1.PropertiesController.Create(Application.Features.PropertyFeatures.Commands.CreatePropertyCommand)">
             <summary>
-            Creates a New Inmueble.
+              Creates a New Property.
             </summary>
             <param name="command"></param>
             <returns></returns>
         </member>
-        <member name="M:Challenge.Controllers.v1.InmueblesController.GetAll">
+        <member name="M:Challenge.Controllers.v1.PropertiesController.GetAll">
             <summary>
-            Gets all Inmuebles.
+              Gets all Properties.
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Challenge.Controllers.v1.InmueblesController.GetById(System.Int32)">
+        <member name="M:Challenge.Controllers.v1.PropertiesController.GetById(System.Int32)">
             <summary>
-            Gets Inmueble by Id.
-            </summary>
-            <param name="id"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Challenge.Controllers.v1.InmueblesController.Delete(System.Int32)">
-            <summary>
-            Deletes Inmueble based on Id.
+              Gets Property by Id.
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:Challenge.Controllers.v1.InmueblesController.Update(Application.Features.InmuebleFeatures.Commands.UpdateInmuebleCommand)">
+        <member name="M:Challenge.Controllers.v1.PropertiesController.Delete(System.Int32)">
             <summary>
-            Updates the Inmueble based on Id.   
+              Deletes Property based on Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge.Controllers.v1.PropertiesController.Update(Application.Features.PropertyFeatures.Commands.UpdatePropertyCommand)">
+            <summary>
+              Updates the Properties based on Id.
             </summary>
             <param name="id"></param>
             <param name="command"></param>

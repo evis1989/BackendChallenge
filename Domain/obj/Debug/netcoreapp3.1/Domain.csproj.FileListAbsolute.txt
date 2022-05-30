@@ -8,3 +8,13 @@ C:\Users\Vy\Downloads\Compressed\BackendChallenge\Domain\obj\Debug\netcoreapp3.1
 C:\Users\Vy\Downloads\Compressed\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 C:\Users\Vy\Downloads\Compressed\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\Vy\Downloads\Compressed\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+F:\WORK\Repositorio\BackendChallenge\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+F:\WORK\Repositorio\BackendChallenge\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+F:\WORK\Repositorio\BackendChallenge\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\WORK\Repositorio\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+F:\WORK\Repositorio\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\WORK\Repositorio\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+F:\WORK\Repositorio\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+F:\WORK\Repositorio\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+F:\WORK\Repositorio\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+F:\WORK\Repositorio\BackendChallenge\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

@@ -636,11 +636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Application\\Application.csproj",
+      "projectUniqueName": "F:\\WORK\\Repositorio\\BackendChallenge\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Application\\Application.csproj",
+      "projectPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Vy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Application\\obj\\",
+      "outputPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -660,8 +660,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Vy\\Downloads\\Compressed\\BackendChallenge\\Domain\\Domain.csproj"
+            "F:\\WORK\\Repositorio\\BackendChallenge\\Domain\\Domain.csproj": {
+              "projectPath": "F:\\WORK\\Repositorio\\BackendChallenge\\Domain\\Domain.csproj"
             }
           }
         }
