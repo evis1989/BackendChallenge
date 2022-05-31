@@ -25,8 +25,4 @@
     <ProjectReference Include="..\Challenge\Challenge.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Properties\Queries\" />
-  </ItemGroup>
-
 </Project>

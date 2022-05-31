@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m9myPMeOPbvdOv11n5xUMUB3l6/xu2VDeVDgQBk58C08AVoDVuTsGLL8io6p6eWT6K0izLxE09Qp+szYS2+57Q==",
+  "dgSpecHash": "MxS0s6BJM3xzi65//wkXZfbRbpX6szrqE79k664JrD0Kkfblr3sTOyTt8oyVlGommTbQuHfQ6f5HTrw144vk0g==",
   "success": true,
   "projectFilePath": "F:\\WORK\\Repositorio\\BackendChallenge\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vy\\.nuget\\packages\\fluentvalidation\\11.0.2\\fluentvalidation.11.0.2.nupkg.sha512",
     "C:\\Users\\Vy\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Vy\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Vy\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",

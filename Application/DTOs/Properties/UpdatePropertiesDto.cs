@@ -7,7 +7,7 @@ namespace Application.Features.PropertiesFeatures.DTOs
     public class UpdatePropertiesDto
     {
         [Required]
-        public int id { get; set; }
+        public Guid id { get; set; }
         public Guid agencyId { get; set; }
         public decimal price { get; set; }
         public string operationType { get; set; }

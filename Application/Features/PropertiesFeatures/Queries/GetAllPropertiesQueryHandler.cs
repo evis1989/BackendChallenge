@@ -20,7 +20,6 @@ namespace Application.Features.PropertiesFeatures.Queries
         public async Task<IEnumerable<Property>> Handle(GetAllPropertiesByIdAgencyQuery query, CancellationToken cancellationToken)
         {
             var propertiesList = await _context.Properties.Where(m => m.AgencyId == query.agencyId).ToListAsync();
-            if (propertiesList == null) return null;
             return propertiesList.AsReadOnly();
         }
     }

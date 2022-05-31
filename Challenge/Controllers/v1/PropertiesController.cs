@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Application.Exceptions;
 using Application.Features.PropertiesFeatures.Commands;
@@ -8,14 +6,16 @@ using Application.Features.PropertiesFeatures.DTOs;
 using Application.Features.PropertiesFeatures.Queries;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using log4net;
 
 namespace Challenge.Controllers.v1
 {
     [ApiVersion("1.0")]
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [Route("v{version:apiVersion}/[controller]")]
     [ApiController]
     public class PropertiesController : BaseApiController
     {
+        readonly ILog logger = LogManager.GetLogger("debug");
         /// <summary>
         /// Creates a New Property.
         /// </summary>
@@ -29,8 +29,9 @@ namespace Challenge.Controllers.v1
                 var command = new CreatePropertiesCommand { PropertyDto = model };
                 return Ok(await Mediator.Send(command));
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                logger.Error(ex.Message,ex);
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
 
@@ -47,8 +48,9 @@ namespace Challenge.Controllers.v1
                 var result = await Mediator.Send(new GetAllPropertiesByIdAgencyQuery { agencyId = agencyId });
                 return Ok(result);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                logger.Error(ex.Message, ex);
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
@@ -57,7 +59,7 @@ namespace Challenge.Controllers.v1
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        [HttpPatch]
+        [HttpPatch("{id}")]
         public async Task<IActionResult> Update([FromBody] UpdatePropertiesDto model)
         {
             try
@@ -66,12 +68,14 @@ namespace Challenge.Controllers.v1
                 var result = await Mediator.Send(command);
                 return Ok(result);
             }
-            catch (NotFoundException)
+            catch (NotFoundException ex)
             {
+                logger.Error(ex.Message, ex);
                 return NotFound();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                logger.Error(ex.Message, ex);
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
 
